@@ -2,6 +2,11 @@
 
 Simple utility to list all bitcoin addresses with positive balance. It works by analysing the current unspent transaction output set (UTXO), aggregating outputs to same addresses together and write them to csv file.
 
+#### Project updated to run on python3
+Python 3 prerequisites:
+pip install plyvel
+pip install base58
+
 #### Prequisities:
 python 2.7  
 pip
