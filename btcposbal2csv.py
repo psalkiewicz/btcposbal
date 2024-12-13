@@ -202,7 +202,7 @@ if __name__ == '__main__':
                 if sat_val == 0:
                     continue
                 w.append(
-                    address + ',' + str(sat_val) + ',' + str(block_height)
+                    address.decode() + ',' + str(sat_val) + ',' + str(block_height)
                 )
                 c += 1
                 if c == 1000:
